@@ -155,7 +155,7 @@ private void init(Context c, AttributeSet attrs) {
 
 #### (3)在XML布局文件中使用
 
-自定义的控件属性所在的xml命名空间是"http://schemas.android.com/apk/res-auto"，为该命名空间取一个别名（例如下面的"app"，你也可以取其他名字没关系），之后通过"app"这个命名空间来设置控件自定义的属性，就像使用"android:"这个命名空间一样，例如下面代码，设置之后的控件效果就是前面一开始的效果图。
+自定义的控件属性所在的xml命名空间是`"http://schemas.android.com/apk/res-auto"`，为该命名空间取一个别名（例如下面的"app"，你也可以取其他名字没关系），之后通过"app"这个命名空间来设置控件自定义的属性，就像使用"android:"这个命名空间一样，例如下面代码，设置之后的控件效果就是前面一开始的效果图。
 
 ```
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
