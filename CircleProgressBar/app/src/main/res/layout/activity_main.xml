@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center" >
+
+    <com.whinc.circleprogressbar.CircleProgressBar
+        android:id="@+id/circle_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:maxValue="100"
+        app:value="70"
+        app:backgroudColor="@android:color/holo_blue_light"
+        app:progressColor="@android:color/holo_orange_dark"
+        app:textSize="60sp"
+        app:textColor="#FF0"
+        />
+</RelativeLayout>

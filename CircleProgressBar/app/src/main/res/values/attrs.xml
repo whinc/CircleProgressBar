@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="maxValue" format="float"/>
+        <attr name="value" format="float"/>
+        <attr name="backgroudColor" format="color"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+    </declare-styleable>
+</resources>
